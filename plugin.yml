@@ -1,0 +1,16 @@
+name: TestPlugin
+main: Goodbritt\Main
+api: [3.9.3, 3.0.0, 4.0.0]
+verison: 1.0
+author: Goodbritt
+
+commands:
+  welcome:
+    description: "Text Command"
+    permission: use.text
+  heal:
+    description: "Heal's Your Health & Food Bar"
+    permission: use.heal
+  cmdslist:
+    description: "Show a server Commands List"
+    permission: use.help
